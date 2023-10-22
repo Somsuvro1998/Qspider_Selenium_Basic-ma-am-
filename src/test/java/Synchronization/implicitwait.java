@@ -22,6 +22,7 @@ public class implicitwait {
 
 		// to open the browser
 		driver.get("https://www.facebook.com/");
+		
 		driver.findElement(By.id("email")).sendKeys("asdfgh");
 		
 
